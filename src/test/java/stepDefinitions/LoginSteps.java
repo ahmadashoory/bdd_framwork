@@ -40,10 +40,53 @@ public void user_clicks_login_button() {
 	Lobject.clickLoginBttn();
 }
 
-@Then("user is navigated to the login page")
-public void user_is_navigated_to_the_login_page() {
+
+@Then("user insert first name")
+public void user_insert_first_name(String fname) {
+	
+}
+
+@Then("user insert last name")
+public void user_insert_last_name() {
+    
+}
+
+@Then("user insert the country")
+public void user_insert_the_country() {
+    
+}
+
+@Then("user insert the address")
+public void user_insert_the_address() {
+   
+}
+
+@Then("user insert city")
+public void user_insert_city() {
+ 
+}
+
+@Then("user insert state")
+public void user_insert_state() {
   
 }
+
+@Then("user insert Zipcode")
+public void user_insert_zipcode() {
+    
+}
+
+@Then("user insert the phone")
+public void user_insert_the_phone() {
+    
+}
+
+@Then("user place the ordrs")
+public void user_place_the_ordrs() {
+   
+}
+
+
 
 @Then("user logs out of account")
 public void user_logs_out_of_account() {
